@@ -1,10 +1,11 @@
 """
-Created by: Mr. Coxall
-Created on: Sep 2020
-This module is a Micro:bit MicroPython program
+Created by: Liya Getachew
+Created on: Oct 2023
+This module is a Micro:bit MicroPython program that creates a traffic light simulation with Neopixels.
 """
 
 from microbit import *
+from random import *
 
 
-display.scroll("Hello, World!")
+
