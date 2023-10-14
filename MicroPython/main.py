@@ -14,6 +14,7 @@ neopixelStrip = neopixel.NeoPixel(pin16, 4)
 
 while True:
     if button_a.is_pressed():
+        display.show(Image.HEART_SMALL)
         neopixelStrip[0] = (0, 225, 0)
         print(neopixelStrip[0])
         neopixelStrip.show()
@@ -31,4 +32,4 @@ while True:
         neopixelStrip[2] = (0, 0, 0)
         print(neopixelStrip[2])
         neopixelStrip.show()
-        display.show(Image.HEART_SMALL)
+        display.show(Image.HEART)
